@@ -1293,4 +1293,23 @@ input[type="text"] {
 .ion-heart{
     color: #e25555;
 }
+
+.profile-thumb h2 {
+	display: inline;
+}
+
+/*Add custom cursor so it auto inherits font styles*/
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
 /*# sourceMappingURL=style.css.map */

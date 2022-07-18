@@ -147,7 +147,7 @@
 
 	// Typed js 
 	var typed = new Typed('.typed', {
-		strings: ["Husband","Father","Senior Software QA Engineer", "Photographer", "Runner"],
+		strings: ["Husband","Father","Principal Software QA Engineer", "Photographer", "Runner", "Vlogger"],
 			stringsElement: null,
 			// typing speed
 			typeSpeed: 30,
